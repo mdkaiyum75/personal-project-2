@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-image: url('images/header-bg.png');
+    padding: 100px ;
+    background-position: center;
+    background-size: cover;
+
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 400;
+}
+h1 {
+    font-size: 55px;
+
+}
+
+.color-text {
+    color:#00a8ff;
+}
+.intro-text {
+    padding: 100px 20px;
+}
+p{
+    font-size: 15px;
+    color: #333;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.section {
+    padding-top:100px;
+    height: 800px;
+}
+.half{
+    width:40%;
+    float: left;
+    /* border: 2px solid blue; */
+    margin-left: 5%;
+    padding-left: 4%;
+
+
+}
+.header img {
+    margin-top: -8%;
+    width: 500px;
+}
+img {
+    width: 400px;
+
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    background-color: #00a8ff;
+    /* margin: 15px 0; */
+    border-radius: 5px;
+    
+}
+
+.biography {
+    background-image: url('images/biography-bg.png');
+    background-position:center;
+    background-size: cover;
+}
+.biography-text {
+    margin-top: 50px;
+}
+
+
+.latest-work {
+    height: 600px;
+}
+.latest-work h2 {
+    text-align: center;
+    font-weight: 500;
+    color: rgb(36, 36, 36);
+    font-size: 40px;
+}
+.latest-img {
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+}
+
+.clients-area {
+    text-align: center;
+    background-image: url('images/footer-bg.png');
+    background-position: center ;
+    background-size: cover;
+}
+.clients-area h3 {
+    font-size: 30px;
+}
+.quote-box {
+    width: 600px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+}
+.author p{
+    font-size: 14px;
+    color: #444;
+}
+
+
+.message-footer {
+    overflow: hidden;
+    width: 55%;
+    margin: 0 auto;
+    background-color: #00a8ff;
+    border-radius: 7px;
+    padding: 50px;
+    color: white;
+}
+.message-footer p {
+    font-size: 19px;
+    color: white;
+}
+.message-footer h2 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
